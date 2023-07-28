@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class Exercice1Component implements OnInit {
   public result: number = 0;
 
+  public changeResult(result: number) {
+    this.result = result;
+  }
+
   constructor() {}
 
   ngOnInit() {}
